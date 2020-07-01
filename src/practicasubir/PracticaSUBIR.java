@@ -20,14 +20,18 @@ public class PracticaSUBIR {
         
         Scanner entrada = new Scanner(System.in);
         
-        String  hola; 
+        int hola; 
         
-        System.out.println("escribe tu nombre");
-        hola = entrada.nextLine();
+        System.out.println("escribe un numero");
+        hola = entrada.nextInt();
         
+      
         
-        System.out.println("hola " + hola);
-        
+        if (hola == 1 ) {
+            System.out.println("Hola");
+        } else {
+            System.out.println("Hola mundo");
+        }
     }
     
 }
